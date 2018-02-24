@@ -9,6 +9,3 @@ after_success:
   - npm run test
   - npm run build
   - firebase deploy - project projectId - token $FIREBASE_TOKEN
-cache:
-  directories:
-    - "node_modules"
