@@ -7,4 +7,4 @@ node_js:
 script: 
   - "npm run test"
   - "npm run build"
-  - "firebase deploy - project la-casa-hits - token $FIREBASE_TOKEN"
+  - "firebase deploy --token $FIREBASE_TOKEN"
