@@ -1,0 +1,29 @@
+{
+  "name": "la_casa_hits",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "backpack-react-scripts": "5.0.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "lint:scss": "stylelint 'src/**/*.scss' --syntax scss",
+    "lint:scss:fix": "stylefmt --recursive 'src/**/*.scss'",
+    "lint:js": "eslint . --ignore-path .gitignore --ext .js,.jsx",
+    "lint:js:fix": "npm run lint:js -- --fix",
+    "lint": "npm run lint:js && npm run lint:scss",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "bpk-component-button": "^2.0.7",
+    "bpk-component-code": "^1.0.49",
+    "bpk-component-grid": "^1.1.56",
+    "bpk-component-text": "^1.0.47",
+    "bpk-mixins": "^17.3.6",
+    "bpk-stylesheets": "^3.2.93",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2"
+  }
+}
