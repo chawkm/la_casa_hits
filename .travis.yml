@@ -1,10 +1,10 @@
+install: 
+  - "npm install -g firebase-tools"
+  - "npm install"
 language: node_js
-node_js:
+node_js: 
   - "8"
-install:
-  - npm install -g firebase-tools
-  - npm install
-script:
-  - npm run test
-  - npm run build
-  - firebase deploy - project la-casa-hits - token $FIREBASE_TOKEN
+script: 
+  - "npm run test"
+  - "npm run build"
+  - "firebase deploy - project la-casa-hits - token $FIREBASE_TOKEN"
